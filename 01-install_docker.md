@@ -28,4 +28,4 @@ cd
 cd jhsu802701
 rm -rf docker-64bit-debian-jessie-install
 ```
-* Docker will be installed in a few minutes.  In additionn, other development software that you will need later will also be installed, including KeePassX (for generating, encrypting, and storing passwords), Geany (code editor), SearchMonkey, SQLite database browser (for viewing the SQLite database), and PG Admin (for viewing the PostgreSQL database).
+* Docker will be installed in a few minutes.  In addition, other development software that you will need later is also installed, including KeePassX (for generating, encrypting, and storing passwords), Geany (code editor), SearchMonkey (search engine for local files), SQLite database browser (for viewing the SQLite database), and PG Admin (for viewing the PostgreSQL database).
