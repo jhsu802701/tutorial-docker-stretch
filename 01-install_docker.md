@@ -29,3 +29,4 @@ cd jhsu802701
 rm -rf docker-64bit-debian-jessie-install
 ```
 * Docker will be installed in a few minutes.  In addition, other development software that you will need later is also installed, including KeePassX (for generating, encrypting, and storing passwords), Geany (code editor), SearchMonkey (search engine for local files), SQLite database browser (for viewing the SQLite database), and PG Admin (for viewing the PostgreSQL database).
+* Don't worry if the Docker installation process results in the message "Are you trying to connect to a TLS-enabled daemon without TLS?"  This is normal.
