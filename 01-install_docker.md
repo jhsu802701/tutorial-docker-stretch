@@ -1,7 +1,7 @@
 # Chapter 1: Installing Docker
 
 ## Procedure
-
+* Open a new terminal window.  In SparkyLinux, go to Menu -> System Tools -> LXTerminal.
 * Install Git, the standard version control system.  Enter the following command:
 ```
 sudo apt-get install -y git
