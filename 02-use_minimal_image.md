@@ -102,4 +102,5 @@ ls # The test1.txt file should be gone but the test2.txt file should remain
 * In your Docker container, enter the command "ls".  The test2.txt file should now be gone.
 
 ## Purpose of the Shared Directory
-Placing the source code of your projects in the shared directory allows you to edit files with the GUI tools of your desktop Linux while processing and testing them with the software tools in your Docker container.
+* Placing the source code of your projects in the shared directory allows you to edit files with the GUI tools of your desktop Linux while processing and testing them with the software tools in your Docker container.
+* When you use a Docker container with pre-installed Ruby on Rails, you can test your Rails app in your Docker container and use the Geany editor (a GUI tool) to view and edit your source code files.  You don't need any GUI tools in your Docker container, and you don't need Ruby on Rails in your desktop Linux setup.
