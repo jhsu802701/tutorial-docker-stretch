@@ -35,4 +35,23 @@ sh download_new_image.sh
 
 ## Resume, Reset, and Download New Image
 * The two scripts you will use most often to enter a Docker container are resume.sh and reset.sh.
-* 
+* After you exit a Docker container, the resume.sh script allows you to re-enter.  Any changes you made to the Docker container since its creation from its Docker image are retained.
+* The reset.sh script destroys your Docker container and creates a new one based on its Docker image.  Any changes you made to the Docker container are erased.
+* The download_new_image.sh script destroys your Docker container, destroys its Docker image, and downloads a new Docker image.  In other words, this script does the same actions that the reset.sh script AND destroys the local Docker image.  If your Docker container is based on an outdated Docker image, this script updates it.
+
+## Time Stamp File
+* The time stamp file of a Docker container is /home/winner/timestamp.txt and is created during the build process.  Initially, the time stamp file includes the build date of the Docker image.  Every time you log into the Docker container, the date at which you did so is automatically added to the time stamp file.
+* The content of the time stamp file is automatically printed out every time you log into a Docker container.
+
+## Demonstation of Resume, Reset, and Download New Image
+* From the min directory within the docker-debian-stretch project, enter the following command:
+```
+sh reset.sh
+```
+* Note that there is 
+
+## Shared Directory Files
+
+## Creating and Deleting Shared Directory Files
+
+## Saving Shared Directory Files
