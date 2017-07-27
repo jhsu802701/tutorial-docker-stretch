@@ -2,6 +2,10 @@
 
 ## Procedure
 
+* Install Git, the standard version control system.  Enter the following command:
+```
+sudo apt-get install -y git
+```
 * To install Docker in a 32-bit Linux system, enter the following commands:
 ```
 mkdir jhsu802701
