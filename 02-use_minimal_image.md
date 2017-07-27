@@ -69,7 +69,7 @@ echo "Ruby on Racetracks" > test1.txt
 cat test1.txt # The text "Ruby on Racetracks" should appear.
 ```
 * On your desktop Linux system, go to Menu -> System Tools -> File Manager.  From your user home directory, go to jhsu802701 -> docker-debian-stretch -> min -> shared.  Open the test1.txt file, which should contain the text "Ruby on Racetracks".
-* On your desktop Linux system, create the file test2.txt within the shared directory.  Open this file and give it the content "Rails Tutorial".
+* On your desktop Linux system, create the file test2.txt within the shared directory.  Open this file, give it the content "Rails Tutorial", and then save it.
 * From the /home/winner/shared directory of your Docker container, enter the command "cat test2.txt".  The text "Rails Tutorial" should appear.
 
 ## Saving Shared Directory Files
