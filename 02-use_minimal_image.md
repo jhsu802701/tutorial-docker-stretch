@@ -85,7 +85,7 @@ cat test2.txt # The text "Rails Tutorial" should appear.
 * In your Docker container, enter the command "exit".  Then enter the command "sh download_new_image.sh" to destroy your current Docker image, download a new one, and enter a new Docker container.
 * In the /home/winner/shared directory of your Docker container, enter the following commands:
 ```
-echo "Ruby on Racetracks\n" > test1.txt.
+echo "Ruby on Racetracks\n" > test1.txt
 cat test1.txt # The text "Ruby on Racetracks" should appear.
 cat test2.txt # The text "Rails Tutorial" should appear.
 ```
