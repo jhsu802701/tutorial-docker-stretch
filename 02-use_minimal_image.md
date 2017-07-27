@@ -65,7 +65,7 @@ sh download_new_image.sh
 ## Creating Shared Directory Files
 * In the /home/winner/shared directory of your Docker container, enter the following commands:
 ```
-echo "Ruby on Racetracks\n" > test1.txt.
+echo "Ruby on Racetracks\n" > test1.txt
 cat test1.txt # The text "Ruby on Racetracks" should appear.
 ```
 * On your desktop Linux system, go to Menu -> System Tools -> File Manager.  From your user home directory, go to jhsu802701 -> docker-debian-stretch -> min -> shared.  Open the test1.txt file, which should contain the text "Ruby on Racetracks".
