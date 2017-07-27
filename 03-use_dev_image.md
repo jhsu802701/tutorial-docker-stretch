@@ -1,4 +1,4 @@
-Chapter 3: Using the Development Image
+# Chapter 3: Using the Development Image
 
 In this chapter, you will download the development Docker image and learn more of the basic capabilities of Docker.  This development image is a derivative of the minimal image used in the previous chapter but has basic software development tools added, such as Git, Heroku, Node Version Manager, Node.js, Python, and rbenv.
 
