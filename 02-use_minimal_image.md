@@ -2,6 +2,9 @@
 
 In this chapter, you will download the minimal Docker image, create a Docker container from it, and learn basic Docker capabilities.  This minimal image is a basic building block for other images and does NOT come with Ruby on Rails installed.  Because the minimal Docker image  Using Ruby on Rails in Docker will be covered in later chapters.
 
+## What's the point?
+In this chapter, you will learn ways to enter a Docker container, and you will learn how to share files between the Docker container and your host environment.
+
 ## Downloading the Image
 * Download the repository for using Docker images by entering the following commands in a terminal:
 ```
@@ -43,7 +46,7 @@ sh download_new_image.sh
 * The time stamp file of a Docker container is /home/winner/timestamp.txt and is created during the build process.  Initially, the time stamp file includes the build date of the Docker image.  Every time you log into the Docker container, the date at which you did so is automatically added to the time stamp file.
 * The content of the time stamp file is automatically printed out every time you log into a Docker container.
 
-## Demonstration of Resume, Reset, and Download New Image.
+## Demonstration of Resume, Reset, and Download New Image
 * From the min directory within the docker-debian-stretch project, enter the command "sh reset.sh".
 * Note that the content of the /home/winner/timestamp.txt file is printed when you log in.  The build date is the date and time at which the Docker image you are using was built.  The unlabeled date below is the date and time at which you logged into the Docker container.
 * Enter the command "exit".  Now you are back in your desktop Linux system.
