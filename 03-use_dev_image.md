@@ -6,7 +6,7 @@ In this chapter, you will download the development Docker image and learn more o
 In this chapter, you will learn more about the time stamp in each Docker image, and you will learn how to erase all Docker images.  You will also intentionally remove Node.js and then reinstall it in just a few seconds.
 
 ## Downloading the Image
-* Download the repository for using Docker images by entering the following commands in a terminal:
+* In your host system, enter the following commands in a terminal:
 ```
 cd
 cd jhsu802701
