@@ -48,7 +48,7 @@ sh download_new_image.sh
 * Enter the command "node -v".  Node.js is still gone.
 * Enter the command "exit".
 * Enter the command "sh reset.sh".  
-* Enter the command "node -v".  Your installation of node.js has been restored in just a few seconds.
+* Enter the command "node -v".  Your installation of node.js has been restored in just a few seconds.  If you had removed Node.js in this manner on your host system, you'd need several minutes to reinstall it.
 * Enter the command "exit".
 
 ## Nuking All Docker Images
