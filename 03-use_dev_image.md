@@ -2,6 +2,9 @@
 
 In this chapter, you will download the development Docker image and learn more of the basic capabilities of Docker.  This development image is a derivative of the minimal image used in the previous chapter but has basic software development tools added, such as Git, Heroku, Node Version Manager, Node.js, Python, and rbenv.
 
+## What's the point?
+In this chapter, you will learn more about the time stamp in each Docker image, and you will learn how to erase all Docker images.
+
 ## Downloading the Image
 * Download the repository for using Docker images by entering the following commands in a terminal:
 ```
@@ -32,3 +35,6 @@ sh download_new_image.sh
 * The development Docker image will be downloaded, and a corresponding Docker container will be created. When the new Docker container is ready, you will be automatically logged in.
 * When you are in the Docker container, enter the command "exit" to return to your desktop Linux system.
 
+## Time Stamp
+* Enter the command "sh reset.sh".
+* Note that the time stamp file has two build dates instead of one.  That's because the development Docker image is a derivative of the minimal Docker image.  The first date is the time at which the minimal Docker image was built, and the second date is the time at which the development Docker image (the one based on your current Docker container) was built.
