@@ -1,0 +1,14 @@
+# Chapter 4: Using the Jekyll Image
+
+In this chapter, you will use the rbenv-jekyll Docker image.  It's based on the development image but has a version of Ruby installed and a version of the Jekyll gem, which is used for creating static web sites.
+
+## What's the point?
+This chapter demonstrates the use of port forwarding for viewing web pages locally.
+
+## Downloading the Image
+* Entering the following commands in a terminal in your host system:
+```
+cd
+cd jhsu802701
+cd docker-debian-stretch # Back to the docker-debian-stretch repository from the previous chapter
+```
