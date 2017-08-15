@@ -6,7 +6,7 @@ In this chapter, you will use the rbenv-jekyll Docker image.  It's based on the 
 This chapter demonstrates the use of port forwarding for viewing web pages locally.
 
 ## Downloading the Image
-* Entering the following commands in a terminal in your host system:
+* Entering the following commands in a terminal in your desktop Linux system:
 ```
 cd
 cd jhsu802701
@@ -33,7 +33,7 @@ cd docker-debian-stretch # Back to the directory for using Docker images
 sh download_new_image.sh
 ```
 * The development Docker image will be downloaded, and a corresponding Docker container will be created. When the new Docker container is ready, you will be automatically logged in.
-* When you are in the Docker container, enter the command "exit" to return to your host system.
+* When you are in the Docker container, enter the command "exit" to return to your desktop Linux system.
 
 ## Time Stamp
 * Enter the command "sh reset.sh".
