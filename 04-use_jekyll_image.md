@@ -39,4 +39,10 @@ sh download_new_image.sh
 * Enter the command "sh reset.sh".
 * Note that the time stamp file has three build dates instead of two.  That's because the rbenv-jekyll Docker image is a derivative of the development Docker image, which is a derivative of the minimal Docker image.
 
-## Removing and installing Ruby and Jekyll
+## Removing and Restoring Ruby and Jekyll
+* Enter the command "rbenv versions".  You'll see the system version of Ruby and one additional numbered version pre-installed with rbenv (the Ruby version manager).
+* Enter the command "ruby -v".  This shows you the version of Ruby currently in use.
+* Enter the command "jekyll -v".  This shows you the version of Jekyll currently in use.
+* Enter the command "rm -rf /home/winner/.rbenv".
+
+## Jekyll Test App
