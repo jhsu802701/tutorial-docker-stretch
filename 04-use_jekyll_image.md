@@ -43,6 +43,11 @@ sh download_new_image.sh
 * Enter the command "rbenv versions".  You'll see the system version of Ruby and one additional numbered version pre-installed with rbenv (the Ruby version manager).
 * Enter the command "ruby -v".  This shows you the version of Ruby currently in use.
 * Enter the command "jekyll -v".  This shows you the version of Jekyll currently in use.
-* Enter the command "rm -rf /home/winner/.rbenv".
+* Enter the command "rm -rf /home/winner/.rbenv".  This removes rbenv, all versions of Ruby installed with rbenv, and Jekyll (which was installed within Ruby).
+* Enter the command "rbenv versions".  You'll get an error message, because you just removed rbenv.
+* Enter the command "ruby -v".  You'll get an error message.
+* Enter the command "jekyll -v".  You'll get an error message.
+* Enter the command "exit".
+* Enter the command "sh resume.sh".
 
 ## Jekyll Test App
