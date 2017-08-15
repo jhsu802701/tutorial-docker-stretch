@@ -44,10 +44,21 @@ sh download_new_image.sh
 * Enter the command "ruby -v".  This shows you the version of Ruby currently in use.
 * Enter the command "jekyll -v".  This shows you the version of Jekyll currently in use.
 * Enter the command "rm -rf /home/winner/.rbenv".  This removes rbenv, all versions of Ruby installed with rbenv, and Jekyll (which was installed within Ruby).
-* Enter the command "rbenv versions".  You'll get an error message, because you just removed rbenv.
-* Enter the command "ruby -v".  You'll get an error message.
-* Enter the command "jekyll -v".  You'll get an error message.
+* Enter the command "rbenv versions".  You'll get the error message "command not found".
+* Enter the command "ruby -v".  You'll see an old version of Ruby in use.  This is the Ruby version that was automatically installed during the process of creating the development Docker image.
+* Enter the command "jekyll -v".  You'll get the error message "No such file or directory".
 * Enter the command "exit".
 * Enter the command "sh resume.sh".
+* Enter the command "rbenv versions".  Again, you'll get the error message "command not found".
+* Enter the command "ruby -v".  Again, you'll see an old version of Ruby in use.
+* Enter the command "jekyll -v".  You'll get the error message "command not found".
+* Enter the command "exit".
+* Enter the command "sh reset.sh".
+* Enter the command "rbenv versions".  Now you'll see the original (newer) version of Ruby for this Docker container.
+* Enter the command "ruby -v".  Now you'll see the original (newer) version of Ruby for this Docker container.
+* Enter the command "jekyll -v".  Now you'll see that Jekyll is back.
 
 ## Jekyll Test App
+* Enter the command "sh test-jekyll.sh".  This script automatically builds a quick test site.  This runs the info.sh script, generates a new Jekyll project, and starts up the local server in your Docker container.
+* In the web browser in your desktop Linux, open the URL "localhost:4000".  You should now see your new Jekyll project.
+* 
