@@ -6,7 +6,7 @@ In this chapter, you will download the development Docker image and learn more o
 In this chapter, you will learn more about the time stamp in each Docker image, and you will learn how to erase all Docker images.  You will also intentionally remove Node.js and then reinstall it in just a few seconds.
 
 ## Downloading the Image
-* In your host system, enter the following commands in a terminal:
+* In your desktop Linux system, enter the following commands in a terminal:
 ```
 cd
 cd jhsu802701
@@ -52,7 +52,7 @@ sh download_new_image.sh
 * Enter the command "exit".
 
 ## Nuking All Docker Images
-* From the host system, enter the command "docker ps -a".  You'll see a list of Docker containers, including the containers from the minimal image that you used in the previous chapter.
+* From the desktop Linux system, enter the command "docker ps -a".  You'll see a list of Docker containers, including the containers from the minimal image that you used in the previous chapter.
 * Enter the command "docker images -a".  You'll see a list of Docker images, including the minimal image from the previous chapter.
 * Enter the command "sh nuke.sh".  This removes all Docker containers and images.
 * Enter the command "docker ps -a".  You'll see no Docker containers.
