@@ -3,7 +3,7 @@
 In this chapter, you will download the minimal Docker image, create a Docker container from it, and learn basic Docker capabilities.  This minimal image is a basic building block for other images and does NOT come with Ruby on Rails installed.  Because the minimal Docker image  Using Ruby on Rails in Docker will be covered in later chapters.
 
 ## What's the point?
-In this chapter, you will learn ways to enter a Docker container, and you will learn how to share files between the Docker container and your host environment.
+In this chapter, you will learn ways to enter a Docker container, and you will learn how to share files between the Docker container and your desktop Linux environment.
 
 ## Downloading the Image
 * Download the repository for using Docker images by entering the following commands in a terminal:
@@ -28,7 +28,7 @@ cd docker-debian-stretch
   cd min
   ```
   * Enter the command "ls".  Note that this "min" directory contains scripts for using a Docker container.  These scripts come with important parameters already filled in for you.  The 32min.sh script specifies the use of the 32-bit minimal image (jhsu802701/32bit-debian-stretch-min), while the min.sh script specifies the use of the 64-bit version of this image (jhsu802701/debian-stretch-min).  There's also a shared directory within the "min" directory.
-  * Enter the command "ls shared".  Files in this shared directory are accessible not only in your host environment but in your virtual Docker environment as well.  This will be demonstrated later in this chapter.
+  * Enter the command "ls shared".  Files in this shared directory are accessible not only in your desktop Linux environment but in your virtual Docker environment as well.  This will be demonstrated later in this chapter.
 * Download the minimal Docker image and start a Docker container based on it by entering the following command:
 ```
 sh download_new_image.sh
