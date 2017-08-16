@@ -2,8 +2,10 @@
 
 In this chapter, you will download the minimal Docker image, create a Docker container from it, and learn basic Docker capabilities.  This minimal image is a basic building block for other images and does NOT come with Ruby on Rails installed.  Because the minimal Docker image  Using Ruby on Rails in Docker will be covered in later chapters.
 
-## What's the point?
-In this chapter, you will learn ways to enter a Docker container, and you will learn how to share files between the Docker container and your desktop Linux environment.
+## Topics Covered
+* Ways of entering a Docker container
+* The time stamp file
+* The shared directory
 
 ## Downloading the Image
 * Download the repository for using Docker images by entering the following commands in a terminal:

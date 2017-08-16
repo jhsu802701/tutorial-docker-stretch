@@ -2,8 +2,9 @@
 
 In this chapter, you will use the rbenv-jekyll Docker image.  It's based on the development image but has a version of Ruby installed and a version of the Jekyll gem, which is used for creating static web sites.
 
-## What's the point?
-This chapter demonstrates the use of port forwarding for viewing web pages locally.
+## Topics
+* Viewing local web pages on your desktop Linux system
+* Using Geany in the host system to edit files in the shared directory
 
 ## Downloading the Image
 * Entering the following commands in a terminal in your desktop Linux system:
@@ -39,6 +40,10 @@ sh download_new_image.sh
 * Enter the command "sh reset.sh".
 * Note that the time stamp file has three build dates instead of two.  That's because the rbenv-jekyll Docker image is a derivative of the development Docker image, which is a derivative of the minimal Docker image.
 
+## Information
+* Enter the command "sh info.sh".  You'll see that a version of Ruby is installed, and a version of Jekyll is installed.
+* Note the port forwarding information, which is stored in the ports.txt file in the shared directory.  You'll see that port 4000 in Docker corresponds to port 4000 in the Docker container's host system.
+
 ## Removing and Restoring Ruby and Jekyll
 * Enter the command "rbenv versions".  You'll see the system version of Ruby and one additional numbered version pre-installed with rbenv (the Ruby version manager).
 * Enter the command "ruby -v".  This shows you the version of Ruby currently in use.
@@ -58,7 +63,19 @@ sh download_new_image.sh
 * Enter the command "ruby -v".  Now you'll see the original (newer) version of Ruby for this Docker container.
 * Enter the command "jekyll -v".  Now you'll see that Jekyll is back.
 
-## Jekyll Test App
+## Starting and Viewing the Jekyll Test App
 * Enter the command "sh test-jekyll.sh".  This script automatically builds a quick test site.  This runs the info.sh script, generates a new Jekyll project, and starts up the local server in your Docker container.
 * In the web browser in your desktop Linux, open the URL "localhost:4000".  You should now see your new Jekyll project.
-* 
+
+## Editing the Jekyll Test App
+* Your Jekyll test app is in the my-awesome-site directory.  Within this directory is the file index.md, the main page of this Jekyll app.
+* In your desktop Linux system, open the index.md file with the Geany editor.
+* At the end of the index.md file, add the following code:
+```
+There's Ruby on Racetracks, and there's Not Exactly.  Make sure you choose the correct one.
+```
+* In the Docker container, enter Ctrl-c to stop the Jekyll server.  You should be back in the shared directory.
+* Enter the command "cd my-awesome-site && jekyll serve --host 0.0.0.0".
+* In the web browser in your desktop Linux, open the URL "localhost:4000".  You should now see your Jekyll web page again, but you'll see the message that you just added to the index.md file added to the page.
+* In the Docker container, enter Ctrl-c to stop the Jekyll server.
+* Enter the command "exit".

@@ -2,8 +2,10 @@
 
 In this chapter, you will download the development Docker image and learn more of the basic capabilities of Docker.  This development image is a derivative of the minimal image used in the previous chapter but has basic software development tools added, such as Git, Heroku, Node Version Manager, Node.js, Python, and rbenv.
 
-## What's the point?
-In this chapter, you will learn more about the time stamp in each Docker image, and you will learn how to erase all Docker images.  You will also intentionally remove Node.js and then reinstall it in just a few seconds.
+## Topics Covered
+* Time stamp file
+* Removing and restoring Node.js in seconds
+* Nuking all Docker images from your system
 
 ## Downloading the Image
 * In your desktop Linux system, enter the following commands in a terminal:
@@ -35,11 +37,16 @@ sh download_new_image.sh
 * The development Docker image will be downloaded, and a corresponding Docker container will be created. When the new Docker container is ready, you will be automatically logged in.
 * When you are in the Docker container, enter the command "exit" to return to your desktop Linux system.
 
+## Information
+* Enter the command "sh reset.sh".
+* Enter the command "sh info.sh".  You'll see information on the software included in this Docker image.
+* Enter the command "exit".
+
 ## Time Stamp
 * Enter the command "sh reset.sh".
 * Note that the time stamp file has two build dates instead of one.  That's because the development Docker image is a derivative of the minimal Docker image.  The first date is the time at which the minimal Docker image was built, and the second date is the time at which the development Docker image (the one based on your current Docker container) was built.
 
-## Removing and Reinstalling Node.js
+## Removing and Restoring Node.js
 * Enter the command "node -v".  You'll see that Node.js is installed.
 * Enter the command "rm -rf /home/winner/.nvm".  Yes, you are removing Node.js.  This is NOT an action to use in a development environment on a host system.
 * Enter the command "node -v".  You'll see that Node.js is no longer installed, because you deleted it.
