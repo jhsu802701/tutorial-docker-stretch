@@ -33,7 +33,7 @@ cd docker-debian-stretch # Back to the directory for using Docker images
 ```
 sh download_new_image.sh
 ```
-* The development Docker image will be downloaded, and a corresponding Docker container will be created. When the new Docker container is ready, you will be automatically logged in.
+* The Jekyll Docker image will be downloaded, and a corresponding Docker container will be created. When the new Docker container is ready, you will be automatically logged in.
 * When you are in the Docker container, enter the command "exit" to return to your desktop Linux system.
 
 ## Time Stamp
