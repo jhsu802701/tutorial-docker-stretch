@@ -10,7 +10,7 @@ cd jhsu802701
 cd docker-debian-stretch # Back to the directory for using Docker images
 ```
 * Enter the command "ls" to see the available scripts.
-* Create the files for using a Docker container based on the development Docker image.
+* Create the files for using a Docker container based on the rbenv-general Docker image.
   * If you are using 64-bit Linux, enter the following command:
   ```
   sh rbenv-general.sh
