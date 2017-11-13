@@ -4,7 +4,7 @@
 * Open a new terminal window.  In SparkyLinux, go to Menu -> System Tools -> LXTerminal.
 * Install Git, the standard version control system.  In the terminal window, enter the following command:
 ```
-sudo apt-get install -y git
+sudo apt-get update; sudo apt-get install -y git
 ```
 * To install Docker in a 32-bit Linux system, enter the following commands:
 ```
