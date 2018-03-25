@@ -35,7 +35,7 @@ sh download_new_image.sh
 
 ## Time Stamp
 * Enter the command "sh reset.sh".
-* Note that the time stamp file has three build dates instead of two.  That's because the rbenv-jekyll Docker image is a derivative of the development Docker image, which is a derivative of the minimal Docker image.
+* Note that the time stamp file has three build dates instead of two.  That's because the rbenv-general Docker image is a derivative of the development Docker image, which is a derivative of the minimal Docker image.
 
 ## Information
 * Enter the command "sh info.sh".  You'll see that a version of Ruby is installed, and versions of Rails are installed.
