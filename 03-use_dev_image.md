@@ -11,7 +11,7 @@ In this chapter, you will download the development Docker image and learn more o
 * In your desktop Linux system, enter the following commands in a terminal:
 ```
 cd
-cd jhsu802701
+cd rubyonracetracks
 cd docker-debian-stretch # Back to the docker-debian-stretch repository from the previous chapter
 ```
 * Enter the command "ls" to see the available scripts.
@@ -28,7 +28,7 @@ cd docker-debian-stretch # Back to the docker-debian-stretch repository from the
   ```
   cd dev
   ```
-  * Enter the command "ls".  Note that this "dev" directory contains scripts for using the jhsu802701/32bit-debian-stretch-dev or jhsu802701/debian-stretch-dev Docker image.  Again, these scripts come with important parameters already filled in for you.
+  * Enter the command "ls".  Note that this "dev" directory contains scripts for using the rubyonracetracks/32bit-debian-stretch-dev or rubyonracetracks/debian-stretch-dev Docker image.  Again, these scripts come with important parameters already filled in for you.
   * Enter the command "ls shared".  You can see the files within the shared directory.
 * Download the development Docker image and start a Docker container based on it by entering the following command:
 ```

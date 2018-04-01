@@ -11,8 +11,8 @@ In this chapter, you will download the minimal Docker image, create a Docker con
 * Download the repository for using Docker images by entering the following commands in a terminal:
 ```
 cd
-cd jhsu802701
-git clone https://github.com/jhsu802701/docker-debian-stretch.git
+cd rubyonracetracks
+git clone https://github.com/rubyonracetracks/docker-debian-stretch.git
 cd docker-debian-stretch
 ```
 * Enter the command "ls".  Note that there are scripts that create the files needed for each of the available Docker images.
@@ -29,7 +29,7 @@ cd docker-debian-stretch
   ```
   cd min
   ```
-  * Enter the command "ls".  Note that this "min" directory contains scripts for using a Docker container.  These scripts come with important parameters already filled in for you.  The 32min.sh script specifies the use of the 32-bit minimal image (jhsu802701/32bit-debian-stretch-min), while the min.sh script specifies the use of the 64-bit version of this image (jhsu802701/debian-stretch-min).  There's also a shared directory within the "min" directory.
+  * Enter the command "ls".  Note that this "min" directory contains scripts for using a Docker container.  These scripts come with important parameters already filled in for you.  The 32min.sh script specifies the use of the 32-bit minimal image (rubyonracetracks/32bit-debian-stretch-min), while the min.sh script specifies the use of the 64-bit version of this image (rubyonracetracks/debian-stretch-min).  There's also a shared directory within the "min" directory.
   * Enter the command "ls shared".  Files in this shared directory are accessible not only in your desktop Linux environment but in your virtual Docker environment as well.  This will be demonstrated later in this chapter.
 * Download the minimal Docker image and start a Docker container based on it by entering the following command:
 ```
@@ -73,7 +73,7 @@ sh download_new_image.sh
 echo "Ruby on Racetracks" > test1.txt
 cat test1.txt # The text "Ruby on Racetracks" should appear.
 ```
-* On your desktop Linux system, go to Menu -> System Tools -> File Manager.  From your user home directory, go to jhsu802701 -> docker-debian-stretch -> min -> shared.  Open the test1.txt file, which should contain the text "Ruby on Racetracks".
+* On your desktop Linux system, go to Menu -> System Tools -> File Manager.  From your user home directory, go to rubyonracetracks -> docker-debian-stretch -> min -> shared.  Open the test1.txt file, which should contain the text "Ruby on Racetracks".
 * On your desktop Linux system, create the file test2.txt within the shared directory.  Open this file, give it the content "Rails Tutorial", and then save it.
 * From the /home/winner/shared directory of your Docker container, enter the command "cat test2.txt".  The text "Rails Tutorial" should appear.
 

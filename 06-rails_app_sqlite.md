@@ -18,7 +18,7 @@ In this chapter, you will create a quick Ruby on Rails app that uses SQLite for 
 * You should now see both of these pupils listed on the web page.
 
 ## Using SQLite Browser
-* In your desktop Linux system, open SQLiteBrowser (which you installed during the Docker installation process).  Go to File -> Open Database, and open the db/development.sqlite3 within your app.  (The directory tree is jhsu802701 -> docker-debian-stretch -> rbenv-general -> shared -> school_sq .)
+* In your desktop Linux system, open SQLiteBrowser (which you installed during the Docker installation process).  Go to File -> Open Database, and open the db/development.sqlite3 within your app.  (The directory tree is rubyonracetracks -> docker-debian-stretch -> rails-general -> shared -> school_sq .)
 * Go to the "Browse Data" tab.
 * Change the "Table" setting to display "pupils".
 * You should now see the entries for Rod Serling and George Romero.

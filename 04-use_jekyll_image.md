@@ -1,6 +1,6 @@
 # Chapter 4: Using the Jekyll Image
 
-In this chapter, you will use the rbenv-jekyll Docker image.  It's based on the development image but has a version of Ruby installed and a version of the Jekyll gem, which is used for creating static web sites.
+In this chapter, you will use the jekyll-general Docker image.  It's based on the development image but has a version of Ruby installed and a version of the Jekyll gem, which is used for creating static web sites.
 
 ## Topics
 * Viewing local web pages on your desktop Linux system
@@ -10,24 +10,25 @@ In this chapter, you will use the rbenv-jekyll Docker image.  It's based on the 
 * Entering the following commands in a terminal in your desktop Linux system:
 ```
 cd
-cd jhsu802701
+cd rubyonracetracks
 cd docker-debian-stretch # Back to the directory for using Docker images
 ```
 * Enter the command "ls" to see the available scripts.
 * Create the files for using a Docker container based on the development Docker image.
   * If you are using 64-bit Linux, enter the following command:
   ```
-  sh rbenv-jekyll.sh
+  sh jekyll-general.sh
   ```
   * If you are using 32-bit Linux, enter the following command:
   ```
-  sh 32rbenv-jekyll.sh
+  sh jekyll-general.sh
   ```
+  * When prompted for an offset of the port number, enter "0".
   * Enter the following command to enter the directory for using the development image:
   ```
-  cd rbenv-jekyll
+  cd jekyll-general
   ```
-  * Enter the command "ls".  Note that this "rbenv-jekyll" directory contains scripts for using the jhsu802701/32bit-debian-stretch-rbenv-jekyll or jhsu802701/debian-stretch-rbenv-jekyll Docker image.  Again, these scripts come with important parameters already filled in for you.
+  * Enter the command "ls".  Note that this "jekyll-general" directory contains scripts for using the rubyonracetracks/32bit-debian-stretch-jekyll-general or rubyonracetracks/debian-stretch-jekyll-general Docker image.  Again, these scripts come with important parameters already filled in for you.
   * Enter the command "ls shared".  You can see the files within the shared directory.
 * Download the Jekyll Docker image and start a Docker container based on it by entering the following command:
 ```
@@ -38,7 +39,7 @@ sh download_new_image.sh
 
 ## Time Stamp
 * Enter the command "sh reset.sh".
-* Note that the time stamp file has three build dates instead of two.  That's because the rbenv-jekyll Docker image is a derivative of the development Docker image, which is a derivative of the minimal Docker image.
+* Note that the time stamp file has three build dates instead of two.  That's because the jekyll-general Docker image is a derivative of the development Docker image, which is a derivative of the minimal Docker image.
 
 ## Information
 * Enter the command "sh info.sh".  You'll see that a version of Ruby is installed, and a version of Jekyll is installed.

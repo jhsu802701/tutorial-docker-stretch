@@ -1,41 +1,41 @@
 # Chapter 5: Using the General Purpose Ruby on Rails Image
 
-In this chapter and the rest of the chapters in this tutorial, you will use the rbenv-general Docker image.  It's based on the development image but includes Ruby, Rails, and other selected Ruby gems.
+In this chapter and the rest of the chapters in this tutorial, you will use the rails-general Docker image.  It's based on the development image but includes Ruby, Rails, and other selected Ruby gems.
 
 ## Downloading the Image
 * Entering the following commands in a terminal in your desktop Linux system:
 ```
 cd
-cd jhsu802701
+cd rubyonracetracks
 cd docker-debian-stretch # Back to the directory for using Docker images
 ```
 * Enter the command "ls" to see the available scripts.
-* Create the files for using a Docker container based on the rbenv-general Docker image.
+* Create the files for using a Docker container based on the rails-general Docker image.
   * If you are using 64-bit Linux, enter the following command:
   ```
-  sh rbenv-general.sh
+  sh rails-general.sh
   ```
   * If you are using 32-bit Linux, enter the following command:
   ```
-  sh 32rbenv-general.sh
+  sh 32rails-general.sh
   ```
   * Enter the following command to enter the directory for using the development image:
   ```
-  cd rbenv-general
+  cd rails-general
   ```
   * You will be asked about your desired offset for the port numbers.  Enter "0".
-  * Enter the command "ls".  Note that this "rbenv-general" directory contains scripts for using the jhsu802701/32bit-debian-stretch-rbenv-general or jhsu802701/debian-stretch-rbenv-general Docker image.  Again, these scripts come with important parameters already filled in for you.
+  * Enter the command "ls".  Note that this "rails-general" directory contains scripts for using the rubyonracetracks/32bit-debian-stretch-rails-general or rubyonracetracks/debian-stretch-rails-general Docker image.  Again, these scripts come with important parameters already filled in for you.
   * Enter the command "ls shared".  You can see the files within the shared directory.
-* Download the rbenv-general Docker image and start a Docker container based on it by entering the following command:
+* Download the rails-general Docker image and start a Docker container based on it by entering the following command:
 ```
 sh download_new_image.sh
 ```
-* The General Purpose rbenv-general Docker image will be downloaded, and a corresponding Docker container will be created. When the new Docker container is ready, you will be automatically logged in.
+* The General Purpose rails-general Docker image will be downloaded, and a corresponding Docker container will be created. When the new Docker container is ready, you will be automatically logged in.
 * When you are in the Docker container, enter the command "exit" to return to your desktop Linux system.
 
 ## Time Stamp
 * Enter the command "sh reset.sh".
-* Note that the time stamp file has three build dates instead of two.  That's because the rbenv-general Docker image is a derivative of the development Docker image, which is a derivative of the minimal Docker image.
+* Note that the time stamp file has three build dates instead of two.  That's because the rails-general Docker image is a derivative of the development Docker image, which is a derivative of the minimal Docker image.
 
 ## Information
 * Enter the command "sh info.sh".  You'll see that a version of Ruby is installed, and versions of Rails are installed.
