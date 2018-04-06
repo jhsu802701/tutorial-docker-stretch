@@ -60,4 +60,4 @@ sh download_new_image.sh
 * Enter the command "ruby -v".  Now you'll see the original (newer) version of Ruby for this Docker container.
 * Enter the command "rails -v".  Now you'll see that Rails is back.
 * Enter the command "exit".
-* If you had deleted Ruby on Rails from a host system, it would take you hours to fully reinstall it.
+* If you had deleted Ruby on Rails from a host system, it would take you hours to fully reinstall it.  In the next chapter, you will create a very basic Ruby on Rails app.
