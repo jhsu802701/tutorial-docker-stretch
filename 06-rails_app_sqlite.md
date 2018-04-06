@@ -8,8 +8,8 @@ In this chapter, you will create a quick Ruby on Rails app that uses SQLite for 
 * Viewing your Rails app's database with the SQLite Browser
 
 ## Creating the App
-* Enter the command "sh reset.sh" to return to Docker.
-* Enter the command "sh test-rails-sq.sh".  This script runs the info.sh script and then follows the procedure from http://elinux.org/RPi_Ruby_on_Rails for creating a new app.
+* From the same rails-general directory you used to enter Docker in the previous chapter, enter the command "sh reset.sh" to return to Docker.
+* Enter the command "sh test-rails-sq.sh".  This script follows the procedure from http://elinux.org/RPi_Ruby_on_Rails for creating a new app.
 * The process of creating the new app will take a few minutes.  When it is finished, open your web browser, and go to the URL http://localhost:3000/pupils .  You should now see a form called "Pupils".
 
 ## Adding Pupils
@@ -27,3 +27,4 @@ In this chapter, you will create a quick Ruby on Rails app that uses SQLite for 
 * Exit SQLite Browser.
 * In Docker, press Ctrl-C to stop the local server so that you can continue entering commands.
 * Enter the command "exit".
+* In the next chapter, you will create a basic Ruby on Rails app that uses PostgreSQL instead of SQLite as the database.
