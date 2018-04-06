@@ -6,7 +6,7 @@
 * Viewing your Rails app's database with pgAdmin
 
 ## Creating the App
-* Enter the command "sh reset.sh" to return to Docker.
+* From the same rails-general directory where you entered the rails-general Docker image, enter the command "sh reset.sh" to return to Docker.
 * Enter the command "sh test-rails-pg.sh".  This script runs the info.sh script and then creates a new Rails app.  This app is just like the one in the previous chapter but uses PostgreSQL instead of SQLite.
 * The process of creating the new app will take a few minutes.  When it is finished, open your web browser, and go to the URL http://localhost:3000/pupils .  You should now see a form called "Pupils".
 
