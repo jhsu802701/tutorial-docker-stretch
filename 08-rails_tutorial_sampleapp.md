@@ -70,3 +70,7 @@ rails db:migrate:reset; rails db:seed
 * Press Ctrl-c to stop the Rails server.  Then enter the command "exit" to close Window 0 and leave tmux.
 * Enter the command "exit" to leave the Docker container.
 
+## Conclusions
+* Congratulations!  You now understand how to use Docker under the Ruby on Racetracks way.
+* For every Rails project that I'm on, I provide a custom Docker image that includes the correct versions of Ruby, the Rails gem, and certain other gems.  This makes the setup process much faster and shorter.
+* In my tutorials involving specific projects, you will use the offset values for the port numbers.  Thus, the port numbers of a Rails project will be different from the ones used in this chapter.  Using a different offset value for different Docker containers allows you to run multiple Docker containers simultaneously.  If a Docker container you are running uses any ports, trying to start a second Docker container will lead to error messages due to the conflict.
