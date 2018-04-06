@@ -38,7 +38,7 @@ sh download_new_image.sh
 * Note that the time stamp file has three build dates instead of two.  That's because the rails-general Docker image is a derivative of the development Docker image, which is a derivative of the minimal Docker image.
 
 ## Information
-* Enter the command "sh info.sh".  You'll see that a version of Ruby is installed, and versions of Rails are installed.
+* Enter the command "sh info.sh".  You'll see that least one version of Ruby was installed with rbenv, and at least one version of Rails was installed as well.
 * Note the port forwarding information, which is stored in the ports.txt file in the shared directory.  You'll see that port 3000 in Docker corresponds to port 3000 in the Docker container's host system.
 
 ## Removing and Restoring Ruby on Rails
