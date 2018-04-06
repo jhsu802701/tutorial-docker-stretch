@@ -46,7 +46,7 @@ sh download_new_image.sh
 * Note the port forwarding information, which is stored in the ports.txt file in the shared directory.  You'll see that port 4000 in Docker corresponds to port 4000 in the Docker container's host system.
 
 ## Removing and Restoring Ruby and Jekyll
-* Enter the command "rbenv versions".  You'll see the system version of Ruby and one additional numbered version pre-installed with rbenv (the Ruby version manager).
+* Enter the command "rbenv versions".  You'll see the system version of Ruby and at least one additional numbered version pre-installed with rbenv (the Ruby version manager).  NOTE: There may be times when this Docker image comes with two or more versions of Ruby installed.
 * Enter the command "ruby -v".  This shows you the version of Ruby currently in use.
 * Enter the command "jekyll -v".  This shows you the version of Jekyll currently in use.
 * Enter the command "rm -rf /home/winner/.rbenv".  This removes rbenv, all versions of Ruby installed with rbenv, and Jekyll (which was installed within Ruby).
@@ -60,12 +60,12 @@ sh download_new_image.sh
 * Enter the command "jekyll -v".  You'll get the error message "command not found".
 * Enter the command "exit".
 * Enter the command "sh reset.sh".
-* Enter the command "rbenv versions".  Now you'll see the original (newer) version of Ruby for this Docker container.
+* Enter the command "rbenv versions".  Now you'll see the original (newer) version(s) of Ruby for this Docker container.
 * Enter the command "ruby -v".  Now you'll see the original (newer) version of Ruby for this Docker container.
 * Enter the command "jekyll -v".  Now you'll see that Jekyll is back.
 
 ## Starting and Viewing the Jekyll Test App
-* Enter the command "sh test-jekyll.sh".  This script automatically builds a quick test site.  This runs the info.sh script, generates a new Jekyll project, and starts up the local server in your Docker container.
+* Enter the command "sh test-jekyll.sh".  This script automatically builds a quick test site.  This generates a new Jekyll project, and starts up the local server in your Docker container.
 * In the web browser in your desktop Linux, open the URL "localhost:4000".  You should now see your new Jekyll project.
 
 ## Editing the Jekyll Test App
