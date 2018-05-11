@@ -11,7 +11,7 @@ Go to http://www.rubyonracetracks.com/faq-docker.html .
 
 ## Layers
 * The preferred setup is SparkyLinux (or something similar) as your host system.  Docker runs within SparkyLinux.  Because Docker is a virtual environment, Ruby on Rails will be within a virtual environment.
-* If you must use MacOS or Windows as your host system, you should be use VirtualBox to create a SparkyLinux guest system.  Docker runs within SparkyLinux.  Ruby on Rails will be in a virtual environment within a virtual machine.
+* If you must use MacOS or Windows as your host system, use VirtualBox to create a SparkyLinux guest system.  Docker runs within SparkyLinux.  Ruby on Rails will be in a virtual environment within a virtual machine.
 
 ## Block Diagram
 * The preferred setup:
