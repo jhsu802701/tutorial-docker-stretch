@@ -1,5 +1,5 @@
 # Chapter 7: Quick Ruby on Rails App with PostgreSQL
-
+[** Click here for Chapter 6 ** ](https://github.com/rubyonracetracks/tutorial-docker-stretch/blob/master/06-rails_app_sqlite.md)
 ## Topics
 * Creating a new Rails app that uses PostgreSQL for the database
 * Viewing the Rails app in your web browser
@@ -32,3 +32,4 @@
 * Exit pgAdmin.
 * In Docker, press Ctrl-C to stop the local server so that you can continue entering commands.
 * Enter the command "exit".
+[** Click here for Chapter 8 ** ](https://github.com/rubyonracetracks/tutorial-docker-stretch/blob/master/08-rails_tutorial_sampleapp.md)

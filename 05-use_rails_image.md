@@ -1,5 +1,5 @@
 # Chapter 5: Using the General Purpose Ruby on Rails Image
-
+[** Click here for Chapter 4 ** ](https://github.com/rubyonracetracks/tutorial-docker-stretch/blob/master/04-use_jekyll_image.md)
 In this chapter and the rest of the chapters in this tutorial, you will use the rails-general Docker image.  It's based on the development image but includes Ruby, Rails, and other selected Ruby gems.
 
 ## Downloading the Image
@@ -61,3 +61,4 @@ sh download_new_image.sh
 * Enter the command "rails -v".  Now you'll see that Rails is back.
 * Enter the command "exit".
 * If you had deleted Ruby on Rails from a host system, it would take you hours to fully reinstall it.  In the next chapter, you will create a very basic Ruby on Rails app.
+[** Click here for Chapter 6 ** ](https://github.com/rubyonracetracks/tutorial-docker-stretch/blob/master/06-rails_app_sqlite.md)
