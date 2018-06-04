@@ -1,5 +1,5 @@
 # Chapter 4: Using the Jekyll Image
-
+[** Click here for Chapter 3 ** ](https://github.com/rubyonracetracks/tutorial-docker-stretch/blob/master/03-use_dev_image.md)
 In this chapter, you will use the jekyll-general Docker image.  It's based on the development image but has a version of Ruby installed and a version of the Jekyll gem, which is used for creating static web sites.
 
 ## Topics
@@ -80,3 +80,4 @@ There's Ruby on Racetracks, and there's Not Exactly.  Make sure you choose the c
 * In the web browser in your desktop Linux, open the URL "localhost:4000".  You should now see your Jekyll web page again, but you'll see the message that you just added to the index.md file added to the page.
 * In the Docker container, enter Ctrl-c to stop the Jekyll server.
 * Enter the command "exit".
+[** Click here for Chapter 5 ** ](https://github.com/rubyonracetracks/tutorial-docker-stretch/blob/master/05-use_rails_image.md)

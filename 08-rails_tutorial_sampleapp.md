@@ -1,5 +1,5 @@
 # Chapter 8: Rails Tutorial Sample App
-
+[** Click here for Chapter 7 ** ](https://github.com/rubyonracetracks/tutorial-docker-stretch/blob/master/07-rails_app_pg.md)
 In this chapter, you will download and run Michael Hartl's Rails Tutorial Sample App.  You will learn to use tmux.  In the interest of saving time, the rails-general Docker image comes preinstalled with the latest version of Ruby and the versions of the rails, pg, and nokogiri gems specified in the Rails Tutorial Sample App.
 
 ## What's the point?
@@ -74,3 +74,4 @@ rails db:migrate:reset; rails db:seed
 * Congratulations!  You now understand how to use Docker under the Ruby on Racetracks way.
 * For every Rails project that I'm on, I provide a custom Docker image that includes the correct versions of Ruby, the Rails gem, and certain other gems.  This makes the setup process much faster and shorter.
 * In my tutorials involving specific projects, you will use the offset values for the port numbers.  Thus, the port numbers of a Rails project will be different from the ones used in this chapter.  Using a different offset value for different Docker containers allows you to run multiple Docker containers simultaneously.  If a Docker container you are running uses any ports, trying to start a second Docker container will lead to error messages due to the conflict.
+[** Return to the README here ** ](https://github.com/rubyonracetracks/tutorial-docker-stretch)

@@ -1,5 +1,5 @@
 # Chapter 6: Quick Ruby on Rails App with SQLite
-
+[** Click here for Chapter 5 ** ](https://github.com/rubyonracetracks/tutorial-docker-stretch/blob/master/05-use_rails_image.md)
 In this chapter, you will create a quick Ruby on Rails app that uses SQLite for its database.
 
 ## Topics Covered
@@ -28,3 +28,4 @@ In this chapter, you will create a quick Ruby on Rails app that uses SQLite for 
 * In Docker, press Ctrl-C to stop the local server so that you can continue entering commands.
 * Enter the command "exit".
 * In the next chapter, you will create a basic Ruby on Rails app that uses PostgreSQL instead of SQLite as the database.
+[** Click here for Chapter 7 ** ](https://github.com/rubyonracetracks/tutorial-docker-stretch/blob/master/07-rails_app_pg.md)

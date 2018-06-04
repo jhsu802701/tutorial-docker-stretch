@@ -1,5 +1,5 @@
 # Chapter 2: Using the Minimal Docker Image
-
+[** Click here for Chapter 1 ** ](https://github.com/rubyonracetracks/tutorial-docker-stretch/blob/master/01-install_docker.md)
 In this chapter, you will download the minimal Docker image, create a Docker container from it, and learn basic Docker capabilities.  This minimal image is a basic building block for other images and does NOT come with Ruby on Rails installed.  Because the minimal Docker image  Using Ruby on Rails in Docker will be covered in later chapters.
 
 ## Topics Covered
@@ -109,3 +109,5 @@ ls # The test1.txt file should be gone but the test2.txt file should remain
 ## Purpose of the Shared Directory
 * Placing the source code of your projects in the shared directory allows you to edit files with the GUI tools of your desktop Linux while processing and testing them with the software tools in your Docker container.
 * When you use a Docker container with pre-installed Ruby on Rails, you can test your Rails app in your Docker container and use the Geany editor (a GUI tool) to view and edit your source code files.  You don't need any GUI tools in your Docker container, and you don't need Ruby on Rails in your desktop Linux setup.
+
+[** Click here for Chapter 3 ** ](https://github.com/rubyonracetracks/tutorial-docker-stretch/blob/master/03-use_dev_image.md)

@@ -1,5 +1,5 @@
 # Chapter 3: Using the Development Image
-
+[** Click here for Chapter 2 ** ](https://github.com/rubyonracetracks/tutorial-docker-stretch/blob/master/02-use_minimal_image.md)
 In this chapter, you will download the development Docker image and learn more of the basic capabilities of Docker.  This development image is a derivative of the minimal image used in the previous chapter but has basic software development tools added, such as Git, Heroku, Node Version Manager, Node.js, Python, and rbenv.
 
 ## Topics Covered
@@ -64,3 +64,4 @@ sh download_new_image.sh
 * Enter the command "sh nuke.sh".  This removes all Docker containers and images.
 * Enter the command "docker ps -a".  You'll see no Docker containers.
 * Enter the command "docker images -a".  You'll see no Docker images.
+[** Click here for Chapter 4 ** ](https://github.com/rubyonracetracks/tutorial-docker-stretch/blob/master/04-use_jekyll_image.md)

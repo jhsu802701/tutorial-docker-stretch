@@ -5,6 +5,7 @@ Welcome to the Docker Tutorial of [Ruby on Racetracks](http://www.rubyonracetrac
 ## Prerequisites
 * You should have version 4 of SparkyLinux installed as your host OS or virtual OS.  You may also use any other Linux distro based on Debian Stretch.
 * If you are using a Mac or Windows, you can use a VirtualBox virtual machine with SparkyLinux on it.  For more details, go through my [VirtualBox Tutorial](https://github.com/rubyonracetracks/tutorial_virtualbox).
+[** Click here for Chapter 1 ** ](https://github.com/rubyonracetracks/tutorial-docker-stretch/blob/master/01-install_docker.md)
 
 ## FAQ
 Go to http://www.rubyonracetracks.com/faq-docker.html .
