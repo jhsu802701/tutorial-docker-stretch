@@ -1,4 +1,4 @@
-# Chapter 6: Quick Ruby on Rails App with SQLite
+# Chapter 5: Quick Ruby on Rails App with SQLite
 
 In this chapter, you will create a quick Ruby on Rails app that uses SQLite for its database.
 
