@@ -1,4 +1,4 @@
-# Chapter 5: Using the General Purpose Ruby on Rails Image
+# Chapter 4: Using the General Purpose Ruby on Rails Image
 
 In this chapter and the rest of the chapters in this tutorial, you will use the rails-general Docker image.  It's based on the development image but includes Ruby, Rails, and other selected Ruby gems.
 
