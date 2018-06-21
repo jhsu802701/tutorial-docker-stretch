@@ -1,4 +1,4 @@
-# Chapter 8: Rails Tutorial Sample App
+# Chapter 7: Rails Tutorial Sample App
 
 In this chapter, you will download and run Michael Hartl's Rails Tutorial Sample App.  You will learn to use tmux.  In the interest of saving time, the rails-general Docker image comes preinstalled with the latest version of Ruby and the versions of the rails, pg, and nokogiri gems specified in the Rails Tutorial Sample App.
 
