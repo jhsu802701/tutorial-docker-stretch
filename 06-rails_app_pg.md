@@ -1,4 +1,4 @@
-# Chapter 7: Quick Ruby on Rails App with PostgreSQL
+# Chapter 6: Quick Ruby on Rails App with PostgreSQL
 
 ## Topics
 * Creating a new Rails app that uses PostgreSQL for the database
